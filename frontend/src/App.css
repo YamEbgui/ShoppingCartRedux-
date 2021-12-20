@@ -1,0 +1,30 @@
+body {
+  background-color: skyblue;
+  font-size: 3vh;
+}
+
+#productsDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+#productDiv {
+  display: flex;
+  flex-direction: row;
+  margin: 0vh;
+}
+
+.productButton {
+  border-color: rgb(13, 172, 39);
+  border-radius: 23%;
+  background-color: rgba(199, 226, 155, 0.63);
+  font-size: 2vh;
+  margin: 1.5vh;
+}
+
+#checkoutButton {
+  border-color: rgb(202, 126, 4);
+  border-radius: 23%;
+  background-color: darksalmon;
+  font-size: 5vh;
+}
